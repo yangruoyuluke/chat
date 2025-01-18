@@ -1,0 +1,31 @@
+{
+  "name": "hub-chat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@iconify-json/simple-icons": "^1.2.15",
+    "@nuxt/eslint": "^0.7.3",
+    "@nuxt/ui": "^2.20.0",
+    "@nuxthub/core": "^0.8.8",
+    "@nuxtjs/mdc": "^0.11.1",
+    "@vueuse/core": "^12.0.0",
+    "nuxt": "^3.14.1592",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.7.3",
+    "eslint": "^9.17.0",
+    "vue-tsc": "^2.1.10",
+    "wrangler": "^3.95.0"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
